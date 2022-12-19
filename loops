@@ -1,0 +1,19 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        // i is loop variable
+        for(int i=0; i<10; i++) {
+            System.out.println("For Loop Step: " + i);
+        }
+
+        int i = 0;
+        while(i<10) {
+            System.out.println("While Loop Step:"  + i);
+        }
+
+        i = 0;
+        do{
+            System.out.println("Do While Loop Step:" + i);
+            i++;
+        }while(i < 10);
+    }
+}
