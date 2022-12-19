@@ -1,0 +1,21 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        String s = "Benim adım Hüsna POYRAZ";
+
+        s = s.toUpperCase();
+        System.out.println(s);
+
+        System.out.println("11. character is : " + s.charAt(11));
+
+        int firstSpace = s.indexOf(" ");
+        System.out.println("First Space' index no: " + firstSpace);
+        String firstWord = s.substring(0, firstSpace);
+        System.out.println("First Word variable: " + firstWord);
+
+        int lastSpace = s.lastIndexOf(" ");
+        System.out.println("Last Space' index no: " + lastSpace);
+        String lastWord = s.substring(lastSpace);
+        System.out.println("Last Word variable: " + lastWord);
+
+    }
+}
