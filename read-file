@@ -4,21 +4,14 @@ import java.io.FileReader;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // open file
-        //Creation of File Descriptor for input file
         File f = new File("./asset/input.txt");    
-        //Creation of File Reader object 
         FileReader fr = new FileReader(f); 
-        //Creation of BufferedReader object 
         BufferedReader br = new BufferedReader(fr); 
         int c = 0; 
         try{
-            //Read char by char
             while((c = br.read()) != -1)         
             {
-                //converting integer to char
-                char character = (char) c;  
-                //Display the Character        
+                char character = (char) c;         
                 System.out.println(character);        
             }
             br.close();
