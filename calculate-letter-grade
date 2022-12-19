@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Please enter your grade: ");
+        Scanner s = new Scanner(System.in);
+        int i = s.nextInt();
+        if(i >= 90){
+            System.out.println("AA");
+        }else if(i >= 80) {
+            System.out.println("BB");
+        }else if(i >= 70) {
+            System.out.println("CC");
+        }else{
+            System.out.println("FF");
+        }
+    }
+}
