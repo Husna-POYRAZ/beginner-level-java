@@ -1,0 +1,13 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int a[] = new int[5];
+        a[3] = 8;
+        System.out.println("" + a[3]);
+
+        int b[] = {1, 3, 5, 7, 9};
+        System.out.println("" + b[3]);
+
+        String str[] = {"Ali", "Baba", "ve", "Kırk", "Haramiler"};
+        System.out.println(str[0] + str[1] + b[3] ); 
+    }
+}
