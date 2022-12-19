@@ -1,0 +1,13 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int i = 15;
+        if(i == 10) {
+            System.out.println("i is equal to 10.");
+        }else if(i < 10) {
+            System.out.println("i is smaller than to 10.");
+        }else{
+            System.out.println("i is not equal to 10 and  not is smaller than 10.");
+        }
+        System.out.println("unconditional");
+    }
+}
