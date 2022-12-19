@@ -1,0 +1,15 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int a = 10, b=20, c=30;
+
+        System.out.println("Total1 = " + (a+b));
+        System.out.println("Total2 = " + a+b);
+        System.out.println("Multiplication = " + (a*b));
+        System.out.println("Division = " + (float)((float)a/(float)b));
+        System.out.println("Substraction = " + (a-b));
+        System.out.println("Right Shift 2 times = " + (10>>2));
+        System.out.println("Left Shift 2 times = " + (10<<2));
+        System.out.println("Boolean Result = " + (a>b));
+        System.out.println("Boolean Result = " + (a!=b));
+    }
+}
