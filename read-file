@@ -21,6 +21,7 @@ public class App {
                 //Display the Character        
                 System.out.println(character);        
             }
+            br.close();
             
         }catch(Exception e) {
             e.printStackTrace();
