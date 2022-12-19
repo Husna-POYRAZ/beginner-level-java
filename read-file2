@@ -11,6 +11,7 @@ public class App {
                 char character = (char) c;
                 System.out.println(character); 
             }
+            fr.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
